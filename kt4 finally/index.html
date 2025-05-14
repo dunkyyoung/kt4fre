@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="/" class="header__logo">Мой сайт</a>
+        <nav class="header__nav">
+            <a href="/about.html" class="header__link">О нас</a>
+            <a href="/services.html" class="header__link">Услуги</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Добро пожаловать!</h1>
+            <p class="hero__subtitle">Лучшие продукты и услуги для вас.</p>
+        </div>
+        <img src="img/hero-image.jpg" alt="Hero Image" class="hero__image">
+    </section>
+
+    <section class="products">
+      <h2>Наши продукты</h2>
+      <div class="product-card">
+        <img src="img/product1.jpg" alt="Продукт 1" class="product-card__image">
+        <h3 class="product-card__title">Продукт 1</h3>
+        <p class="product-card__description">Описание продукта 1.</p>
+        <span class="product-card__price">$99.99</span>
+      </div>
+      <div class="product-card">
+        <img src="img/product2.jpg" alt="Продукт 2" class="product-card__image">
+        <h3 class="product-card__title">Продукт 2</h3>
+        <p class="product-card__description">Описание продукта 2.</p>
+        <span class="product-card__price">$149.99</span>
+      </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Свяжитесь с нами</h2>
+        <form class="form">
+            <label class="form__label" for="name">Имя:</label>
+            <input type="text" id="name" name="name" class="form__input">
+
+            <label class="form__label" for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form__input">
+
+            <label class="form__label" for="message">Сообщение:</label>
+            <textarea id="message" name="message" class="form__input"></textarea>
+
+            <button type="submit" class="form__button">Отправить</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2023 Мой сайт</p>
+    </footer>
+
+</body>
+</html>

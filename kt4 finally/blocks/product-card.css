@@ -1,0 +1,27 @@
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .product-card__image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card__title {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .product-card__description {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .product-card__price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
